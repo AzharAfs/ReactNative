@@ -87,3 +87,10 @@ export const signupStyles = StyleSheet.create({
     color: '#D5BFBF'
   }
 });
+
+export const homePageStyles = StyleSheet.create({
+welcomeText:{
+  color: "white",
+  fontSize: 20,
+}
+});

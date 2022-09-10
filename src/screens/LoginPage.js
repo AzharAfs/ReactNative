@@ -33,7 +33,7 @@ const LoginPage = ({ navigation }) => {
       if (userData !== null) {
         if (userData.password === password) {
           console.log("Login sucess........");
-          navigation.navigate("Home");
+          navigation.navigate("Home", {username});
         } else {
           setPassWarning(CONSTANTS.INVALID_PASSWORD_ERROR);
           console.log("Wrong password........");

@@ -16,7 +16,7 @@ const CONSTANTS = {
   CONFIRM_PASS_WARNING:
     "Please enter password and confirm password correctly ...",
   USER_EXISTS_WARNING:
-    "Entered username is already regitered, please try a different username..",
+    "Entered username is already registered, please try a different username..",
   ERROR: "Error!",
 };
 
